@@ -11,9 +11,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@discordjs/opus": "^0.5.3",
     "discord.js": "^12.5.1",
     "module-alias": "^2.2.2",
-    "typescript": "^4.2.3"
+    "typescript": "^4.2.3",
+    "ytdl-core": "^4.8.2"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.13.14",
@@ -43,10 +45,12 @@
   },
   "_moduleAliases": {
     "@root": "./build/",
-    "@systems": "./build/systems/",
+    "@systems": "./build/type/",
     "logger": "./build/lib/logger/logger",
     "@lib": "./build/lib/",
     "@util": "./build/lib/util/",
-    "@type/*": ["src/type/*"]
+    "@type/*": [
+      "src/type/*"
+    ]
   }
 }

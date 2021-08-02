@@ -43,7 +43,7 @@
       "baseUrl": "./",                          /* Base directory to resolve non-absolute module names. */
       "paths": {                                /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */
           "@root/*": ["src/*"],
-          "@systems/*": ["src/systems/*"],
+          "@systems/*": ["src/type/*"],
           "@util/*" : ["src/lib/util/*"],
           "logger" : ["src/lib/logger/logger.ts"],
           "@lib/*": ["src/lib/*"],
